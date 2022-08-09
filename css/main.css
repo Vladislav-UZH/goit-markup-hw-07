@@ -324,6 +324,12 @@ a {
   pointer-events: none;
 }
 
+.backdrop.is-hidden .modal {
+  -webkit-transform: translate(-50%, -50%) scale(1.05);
+          transform: translate(-50%, -50%) scale(1.05);
+  opacity: 0;
+}
+
 .modal {
   position: absolute;
   bottom: 50%;
@@ -371,15 +377,9 @@ a {
   transition: fill var(--global-animation);
 }
 
-.modal__icon-close:hover,
-.modal__icon-close:focus {
+.modal__icon:hover,
+.modal__icon:focus {
   fill: var(--link-hover-text-color);
-}
-
-.backdrop.is-hidden .modal {
-  -webkit-transform: translate(-50%, -50%) scale(1.05);
-          transform: translate(-50%, -50%) scale(1.05);
-  opacity: 0;
 }
 
 .modal__form {
