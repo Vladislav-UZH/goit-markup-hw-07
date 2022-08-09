@@ -1,0 +1,32 @@
+.task-section {
+    padding-top: 0;
+}
+
+
+.task-section__item {
+    position: relative;
+}
+
+.task-section__wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 27px 10px;
+    width: 100%;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.task-section__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--footer__address-hover);
+}
+
+.task-section__list {
+    display: flex;
+    gap: 30px;
+}
