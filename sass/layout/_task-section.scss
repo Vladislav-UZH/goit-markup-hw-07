@@ -1,13 +1,14 @@
+// TASK SECTION -----
 .task-section {
     padding-top: 0;
-}
 
 
-.task-section__item {
+
+&__item {
     position: relative;
 }
 
-.task-section__wrapper {
+&__wrapper {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -16,7 +17,7 @@
     background-color: rgba(47, 48, 58, 0.8);
 }
 
-.task-section__text {
+&__text {
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -26,7 +27,8 @@
     color: var(--footer__address-hover);
 }
 
-.task-section__list {
+&__list {
     display: flex;
     gap: 30px;
+}
 }

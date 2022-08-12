@@ -1,18 +1,18 @@
 .teammates {
   background-color: var(--teammates__section-bg-color);
-}
 
-.teammates__list {
+
+&__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.teammates__item {
+&__item {
   flex-basis: calc((100% - 30px * 7) / 8);
 }
 
-.teammates__decription {
+&__decription {
   padding: 30px;
   background-color: var(--nav-bg-color);
   border-radius: 0px 0px 4px 4px;
@@ -26,8 +26,6 @@
   font-size: 16px;
   font-weight: 500;
   line-height: calc(19 / 16);
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -35,7 +33,7 @@
 .teammates__text {
   font-size: 16px;
   line-height: calc(19 / 16);
-  /* identical to box height */
+  
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
@@ -48,7 +46,7 @@
   justify-content: center;
   gap: 10px;
 }
-
+}
 .teammates__link {
   display: flex;
   justify-content: center;
@@ -57,10 +55,10 @@
   height: 44px;
   border-radius: 50%;
   transition: background-color var(--global-animation);
-}
 
-.teammates__link:hover,
-.teammates__link:focus {
+
+&:hover,
+&:focus {
   background-color: var(--link-hover-text-color);
 }
 .teammates__svg{
@@ -69,82 +67,10 @@
   width: 20px;
   height: 20px;
 }
- .teammates__link:hover .teammates__svg,
- .teammates__link:focus .teammates__svg {
+ &:hover .teammates__svg,
+ &:focus .teammates__svg {
   fill: var(--footer__address-hover);}.teammates {
     background-color: var(--teammates__section-bg-color);
 }
 
-.teammates__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.teammates__item {
-    flex-basis: calc((100% - 30px * 7) / 8);
-}
-
-.teammates__decription {
-    padding: 30px;
-    background-color: var(--nav-bg-color);
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
-    text-align: center;
-}
-
-.teammates__name {
-    margin-bottom: 10px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: calc(19 / 16);
-    /* identical to box height */
-
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-.teammates__text {
-    font-size: 16px;
-    line-height: calc(19 / 16);
-    /* identical to box height */
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
-}
-
-.teammates__networks {
-    margin-top: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.teammates__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    transition: background-color var(--global-animation);
-}
-
-.teammates__link:hover,
-.teammates__link:focus {
-    background-color: var(--link-hover-text-color);
-}
-
-.teammates__svg {
-    transition: fill var(--global-animation);
-    fill: #afb1b8;
-    width: 20px;
-    height: 20px;
-}
-
-.teammates__link:hover .teammates__svg,
-.teammates__link:focus .teammates__svg {
-    fill: var(--footer__address-hover);
 }

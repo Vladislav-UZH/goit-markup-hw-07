@@ -1,9 +1,11 @@
 .header {
+    
     background-color: var(--nav-bg-color);
     border-bottom: 1px solid #ececec;
-}
 
-.header__container {
+
+&__container {
     display: flex;
     align-items: center;
+}
 }

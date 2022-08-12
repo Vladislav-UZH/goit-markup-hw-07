@@ -2,7 +2,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--section-footer__bg-color);
-}
+
 
 .footer__container {
     display: flex;
@@ -46,8 +46,8 @@
     transition: color var(--global-animation);
 }
 
-.footer__link:hover,
-.footer__link:focus {
+&__link:hover,
+&__link:focus {
     color: var(--footer__address-hover);
 }
 
@@ -84,7 +84,8 @@
     transition: background-color var(--global-animation);
 }
 
-.footer__links:hover,
-.footer__links:focus {
+&__links:hover,
+&__links:focus {
     background-color: var(--link-hover-text-color);
+}
 }

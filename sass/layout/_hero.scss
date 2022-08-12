@@ -8,7 +8,7 @@
     background-color: var(--section-footer__bg-color);
     padding: 200px 0;
     margin: 0 auto;
-}
+
 
 .hero__headline {
     margin-bottom: 30px;
@@ -41,7 +41,8 @@
     transition: background-color var(--global-animation);
 }
 
-.hero__button:hover,
-.hero__button:focus {
+&__button:hover,
+&__button:focus {
     background-color: #188ce8;
+}
 }

@@ -9,22 +9,23 @@
     flex-grow: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
+// MAIN LINKS
 .main__link {
     display: block;
     transition: box-shadow var(--global-animation);
 
-}
 
-.main__link:hover,
-.main__link:focus {
+
+&:hover,
+&:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.main__link:hover .main__overlat-part,
-.main__link:focus .main__overlat-part {
+&:hover .main__overlat-part,
+&:focus .main__overlat-part {
     transform: translateY(0%);
     opacity: 1;
-}
+}}
 
 /* overlay-card */
 .main__overlay-head {
